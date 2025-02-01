@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Recipes by Country</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('Images/download.jpg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #sect {
+            max-width: 400px;
+            margin: 50px auto; /* Centers the list */
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+            border-radius: 8px; /* Adds rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for better visibility */
+        }
+
+        .country-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .country-item {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            color: #333; /* Hexa vaule of the color */
+            font-weight: bold;
+        }
+
+        .country-item img {
+            width: 30px;
+            height: 20px;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px; /* Optional: Adds slight rounding to flag edges */
+        }
+        #h{
+            margin: 0 ;/* Centers the list */
+            padding: 0px;
+            background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+            border-radius: 0px; /* Adds rounded corners */ 
+            color: rgb(13, 14, 14);
+            text-align: center;
+            text-transform: capitalize;
+
+        }
+        a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Makes the text color inherit from its parent element */
+}
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="h">Famous Recipes by Countries</h1>
+    </div>
+    <section id="sect">
+        <ul class="country-list">
+            <li class="country-item">
+                 <a href="Itlay.html" ><img src="https://flagcdn.com/w320/it.png" alt="Italy Flag">Italy</a> 
+            </li>
+            <li class="country-item">
+                <a href="France.html" ><img src="https://flagcdn.com/w320/fr.png" alt="France Flag"> France </a>
+            </li>
+            <li class="country-item">
+                <a href="China.html"><img src="https://flagcdn.com/w320/cn.png" alt="China Flag"> China </a>
+            </li>
+            <li class="country-item">
+                <a href="japan.html"><img src="https://flagcdn.com/w320/jp.png" alt="Japan Flag"> Japan  </a>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
